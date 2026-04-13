@@ -27,7 +27,7 @@ See `docs/architecture.md` (coming soon).
 ## Progress
 
 - [x] Step 1: Backend foundation
-- [ ] Step 2: Document ingestion pipeline
+- [x] Step 2: Document ingestion pipeline
 - [ ] Step 3: LangGraph agents
 - [ ] Step 4: Claude function calling
 - [ ] Step 5: Redis caching
