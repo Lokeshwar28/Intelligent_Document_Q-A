@@ -39,11 +39,15 @@ class Settings(BaseSettings):
     aws_secret_access_key: str = ""
     aws_region: str = "us-east-1"
     s3_bucket_name: str = "docqa-documents"
+    aws_endpoint_url: str = ""  # set to http://localhost:4566 for local dev
 
     # Anthropic
     anthropic_api_key: str
     claude_model: str = "claude-sonnet-4-5"
     claude_max_tokens: int = 4096
+
+    # Voyage AI
+    voyage_api_key: str = ""
 
     # Vector DB (Chroma)
     chroma_host: str = "localhost"
@@ -55,6 +59,8 @@ class Settings(BaseSettings):
     chunk_size: int = 1000
     chunk_overlap: int = 200
     retrieval_top_k: int = 8
+
+    
 
     @property
     def is_production(self) -> bool:

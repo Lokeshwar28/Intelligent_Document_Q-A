@@ -1,0 +1,2 @@
+[tool.uvicorn]
+reload_excludes = [".venv", "*.pyc", "__pycache__"]
