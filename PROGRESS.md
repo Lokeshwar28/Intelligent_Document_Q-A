@@ -6,12 +6,12 @@
 
 ## In progress
 
-- [ ] Step 2: Document ingestion (S3 + Celery + chunker + Chroma)
+- [x] Step 2: Document ingestion (S3 + Celery + chunker + Chroma)
   - [x] S3 upload helper
-  - [ ] Celery task
-  - [ ] PyMuPDF parser
-  - [ ] Chunker + embedder
-  - [ ] Chroma upsert
+  - [x] Celery task
+  - [x] PyMuPDF parser
+  - [x] Chunker + embedder
+  - [x] Chroma upsert
 
 ## Blocked on
 
